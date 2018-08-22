@@ -82,22 +82,7 @@ pandocfilters==1.4.1
 pefile==2017.11.5
 pickleshare==0.7.4
 Pillow==5.0.0
-prompt-toolkit==1.0.14
-protobuf==3.5.1
-pyasn1==0.4.2
-pyasn1-modules==0.2.1
 
-PyAutoGUI==0.9.36
-
-
-pyscreenshot==0.4.2
-PyScreeze==0.1.14
-python-dateutil==2.6.0
-Python-EasyConfig==0.1.7
-python-engineio==2.1.0
-python-socketio==1.9.0
-PyTweening==1.0.3
-pytz==2018.3
 pywin32==223
 
 redis==2.10.6
