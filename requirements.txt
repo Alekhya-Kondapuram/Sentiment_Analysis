@@ -62,10 +62,7 @@ jupyter-console==5.1.0
 jupyter-core==4.3.0
 Keras==2.0.5
 kiwisolver==1.0.1
-kombu==4.1.0
-macholib==1.9
-Markdown==2.2.0
-MarkupSafe==1.0
+
 matplotlib==2.2.2
 mistune==0.7.4
 nbconvert==5.2.1
@@ -78,12 +75,7 @@ oauthlib==2.0.6
 opencv-python==3.2.0.7
 packaging==17.1
 pandas==0.20.2
-pandocfilters==1.4.1
-pefile==2017.11.5
-pickleshare==0.7.4
-Pillow==5.0.0
 
-pywin32==223
 
 redis==2.10.6
 requests==2.18.4
@@ -96,16 +88,11 @@ scipy==1.0.0
 seaborn==0.8.1
 simplegeneric==0.8.1
 six==1.11.0
-smart-open==1.5.7
-SpeechRecognition==3.8.1
-tensorboard==1.8.0
-tensorflow==1.2.0
-termcolor==1.1.0
-testpath==0.3.1
+
+
+
 textblob==0.15.1
-Theano==1.0.1
-tornado==4.5.1
-traitlets==4.3.2
+
 tweepy==3.5.0
 urllib3==1.22
 vine==1.1.4
@@ -113,4 +100,4 @@ virtualenv==15.1.0
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.14.1
-widgetsnbextension==2.0.0
+
