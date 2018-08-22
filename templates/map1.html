@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster-src.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_88920c7ec9904b94a26c32c8ba27ff59 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_88920c7ec9904b94a26c32c8ba27ff59" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var southWest = L.latLng(-90, -180);
+                var northEast = L.latLng(90, 180);
+                var bounds = L.latLngBounds(southWest, northEast);
+            
+
+            var map_88920c7ec9904b94a26c32c8ba27ff59 = L.map(
+                                  'map_88920c7ec9904b94a26c32c8ba27ff59',
+                                  {center: [38.58,-99.09],
+                                  zoom: 2,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_310547ff8e9444ae813cf71c91848f23 = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+                    maxZoom: 18,
+                    minZoom: 1,
+                    continuousWorld: false,
+                    noWrap: false,
+                    attribution: 'Map tiles by <a href="http://www.mapbox.com/m">Mapbox</a> Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://creativecommons.org/licenses/by-sa/3.0">CC BY SA</a>.',
+                    detectRetina: false
+                    }
+                ).addTo(map_88920c7ec9904b94a26c32c8ba27ff59);
+
+        
+    
+            var feature_group_6003ca860b7541c2a46ffe73abf073c5 = L.featureGroup(
+                ).addTo(map_88920c7ec9904b94a26c32c8ba27ff59);
+        
+    
+
+            var marker_e13ca70f7f1f4bc1990c504fb2bfe1b0 = L.marker(
+                [12.9791198,77.5912997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6003ca860b7541c2a46ffe73abf073c5);
+            
+    
+
+                var icon_06a2d51d73ef4bb0aea269eb548b5bad = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e13ca70f7f1f4bc1990c504fb2bfe1b0.setIcon(icon_06a2d51d73ef4bb0aea269eb548b5bad);
+            
+    
+            var popup_8ac29fd666504c7cb0d677b6dcb2b262 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a39c9218e624ab3a80de88616d0206d = $('<div id="html_3a39c9218e624ab3a80de88616d0206d" style="width: 100.0%; height: 100.0%;">Bangalore ...............RT  amitmalviya  India to drive global growth for    yrs  International Monetary Fund  IMF expects economic growth to pick up to about      </div>')[0];
+                popup_8ac29fd666504c7cb0d677b6dcb2b262.setContent(html_3a39c9218e624ab3a80de88616d0206d);
+            
+
+            marker_e13ca70f7f1f4bc1990c504fb2bfe1b0.bindPopup(popup_8ac29fd666504c7cb0d677b6dcb2b262);
+
+            
+        
+    
+
+            var marker_13be6d8f7bd649efa152b04ee4d30032 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6003ca860b7541c2a46ffe73abf073c5);
+            
+    
+
+                var icon_8927a448d204493a91786fd38ae032f8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_13be6d8f7bd649efa152b04ee4d30032.setIcon(icon_8927a448d204493a91786fd38ae032f8);
+            
+    
+            var popup_019cfb75812b4607bd01c818a5d0e9a6 = L.popup({maxWidth: '300'});
+
+            
+                var html_d976099617184232b19d293b1214b25e = $('<div id="html_d976099617184232b19d293b1214b25e" style="width: 100.0%; height: 100.0%;">India ...............RT  narendramodi in  Maharashtra civic polls results  PM  narendramodi thanks people for their continued faith in BJP https   t co B  Rnxl  </div>')[0];
+                popup_019cfb75812b4607bd01c818a5d0e9a6.setContent(html_d976099617184232b19d293b1214b25e);
+            
+
+            marker_13be6d8f7bd649efa152b04ee4d30032.bindPopup(popup_019cfb75812b4607bd01c818a5d0e9a6);
+
+            
+        
+    
+
+            var marker_8e1db211b8734e3c9acbe0583c355906 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6003ca860b7541c2a46ffe73abf073c5);
+            
+    
+
+                var icon_a2fc86f398924dad9ae6646952939e76 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8e1db211b8734e3c9acbe0583c355906.setIcon(icon_a2fc86f398924dad9ae6646952939e76);
+            
+    
+            var popup_7d001c3d598f41ebb865c143c36c1118 = L.popup({maxWidth: '300'});
+
+            
+                var html_f175daeed6d1495fa4b319043f72af7c = $('<div id="html_f175daeed6d1495fa4b319043f72af7c" style="width: 100.0%; height: 100.0%;">India ...............RT  amitmalviya  India to drive global growth for    yrs  International Monetary Fund  IMF expects economic growth to pick up to about      </div>')[0];
+                popup_7d001c3d598f41ebb865c143c36c1118.setContent(html_f175daeed6d1495fa4b319043f72af7c);
+            
+
+            marker_8e1db211b8734e3c9acbe0583c355906.bindPopup(popup_7d001c3d598f41ebb865c143c36c1118);
+
+            
+        
+    
+
+            var marker_c1fbfa948a0a4d019079deee46209254 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6003ca860b7541c2a46ffe73abf073c5);
+            
+    
+
+                var icon_9c9a283ec88a442f8bb970c30d51f023 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c1fbfa948a0a4d019079deee46209254.setIcon(icon_9c9a283ec88a442f8bb970c30d51f023);
+            
+    
+            var popup_05cb0c6f72d04d0cb68ef15943c01fc2 = L.popup({maxWidth: '300'});
+
+            
+                var html_a8145037aa934d009191514a029dd7a4 = $('<div id="html_a8145037aa934d009191514a029dd7a4" style="width: 100.0%; height: 100.0%;">India ...............RT  narendramodi in  Urjit Patel lauds Modi government s reforms  says   unprecedented  steps in India s history https   t co T suUej bE </div>')[0];
+                popup_05cb0c6f72d04d0cb68ef15943c01fc2.setContent(html_a8145037aa934d009191514a029dd7a4);
+            
+
+            marker_c1fbfa948a0a4d019079deee46209254.bindPopup(popup_05cb0c6f72d04d0cb68ef15943c01fc2);
+
+            
+        
+    
+
+            var marker_9a394b2332354af3a45aedfdf404d616 = L.marker(
+                [22.8015194,86.2029579],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6003ca860b7541c2a46ffe73abf073c5);
+            
+    
+
+                var icon_252065e43e5d49d08d465bb4c754706e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9a394b2332354af3a45aedfdf404d616.setIcon(icon_252065e43e5d49d08d465bb4c754706e);
+            
+    
+            var popup_6027986cf5174b018bc8e5cb80e027d5 = L.popup({maxWidth: '300'});
+
+            
+                var html_1cacb816db8d48fe9057afaaab5b85bb = $('<div id="html_1cacb816db8d48fe9057afaaab5b85bb" style="width: 100.0%; height: 100.0%;">Jamshedpur ...............RT  ramanswall  Patel  I have these Bouts  Get me to a new one now    Which Modi    Chotta or Chhotta   https   t co VpryZlMQqH</div>')[0];
+                popup_6027986cf5174b018bc8e5cb80e027d5.setContent(html_1cacb816db8d48fe9057afaaab5b85bb);
+            
+
+            marker_9a394b2332354af3a45aedfdf404d616.bindPopup(popup_6027986cf5174b018bc8e5cb80e027d5);
+
+            
+        
+    
+
+            var marker_6ac7831fd8944764af8db4a2d0357361 = L.marker(
+                [29.3920381,79.4555358],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_6003ca860b7541c2a46ffe73abf073c5);
+            
+    
+
+                var icon_c0c17e9a24fd49f78fa13204e842a28a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'green',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6ac7831fd8944764af8db4a2d0357361.setIcon(icon_c0c17e9a24fd49f78fa13204e842a28a);
+            
+    
+            var popup_f27d90048cf246f0a3ec4ba01a64d997 = L.popup({maxWidth: '300'});
+
+            
+                var html_29f580931a354889ad867a71d587e965 = $('<div id="html_29f580931a354889ad867a71d587e965" style="width: 100.0%; height: 100.0%;">Nainital ...............RT  pbhushan   Rafale scam implications  AF left high   dry with aircraft reduced from     to     HAL   Make in India removed  Country lose </div>')[0];
+                popup_f27d90048cf246f0a3ec4ba01a64d997.setContent(html_29f580931a354889ad867a71d587e965);
+            
+
+            marker_6ac7831fd8944764af8db4a2d0357361.bindPopup(popup_f27d90048cf246f0a3ec4ba01a64d997);
+
+            
+        
+    
+            var feature_group_f8c73e291a1248cd92d552e8168fe841 = L.featureGroup(
+                ).addTo(map_88920c7ec9904b94a26c32c8ba27ff59);
+        
+    
+
+            var marker_35b6a66f9ca64d4081fad3290e72c033 = L.marker(
+                [51.5073219,-0.1276474],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_f8c73e291a1248cd92d552e8168fe841);
+            
+    
+
+                var icon_3b54cf02b6f74cabb47386887835b889 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_35b6a66f9ca64d4081fad3290e72c033.setIcon(icon_3b54cf02b6f74cabb47386887835b889);
+            
+    
+            var popup_5284a0256be2425591bd644ea95eef36 = L.popup({maxWidth: '300'});
+
+            
+                var html_c5e5ecf5f40644d6947606c1c5c59fa3 = $('<div id="html_c5e5ecf5f40644d6947606c1c5c59fa3" style="width: 100.0%; height: 100.0%;">LONDON ...............RT  India Policy  Isn t it amusing that the ABP group owned The Telegraph continue to vent propaganda and hate against the Modi Govt  but w </div>')[0];
+                popup_5284a0256be2425591bd644ea95eef36.setContent(html_c5e5ecf5f40644d6947606c1c5c59fa3);
+            
+
+            marker_35b6a66f9ca64d4081fad3290e72c033.bindPopup(popup_5284a0256be2425591bd644ea95eef36);
+
+            
+        
+    
+
+            var marker_05231b7d42e24bc9a304667c80d5629d = L.marker(
+                [10.3529588,76.5119752],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_f8c73e291a1248cd92d552e8168fe841);
+            
+    
+
+                var icon_40f72a30ada044018f019d07145974a3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'red',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_05231b7d42e24bc9a304667c80d5629d.setIcon(icon_40f72a30ada044018f019d07145974a3);
+            
+    
+            var popup_12bdea05d1944d79b851e68416f10b1f = L.popup({maxWidth: '300'});
+
+            
+                var html_f6dd8b0af6f24d3b9a7c96f49815ff1f = $('<div id="html_f6dd8b0af6f24d3b9a7c96f49815ff1f" style="width: 100.0%; height: 100.0%;">Kerala ...............RT  jamewils  There are no official estimates of black money stashed by Indians in foreign countries   finance minister Piyush Goyal said i </div>')[0];
+                popup_12bdea05d1944d79b851e68416f10b1f.setContent(html_f6dd8b0af6f24d3b9a7c96f49815ff1f);
+            
+
+            marker_05231b7d42e24bc9a304667c80d5629d.bindPopup(popup_12bdea05d1944d79b851e68416f10b1f);
+
+            
+        
+    
+            var feature_group_cde786746fe54ef599acc818a443fe6d = L.featureGroup(
+                ).addTo(map_88920c7ec9904b94a26c32c8ba27ff59);
+        
+    
+
+            var marker_a89399c77f95450c870e191a9df20f6c = L.marker(
+                [19.1334321,72.8882172],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_98a65d08954d4a288dc584b062923bc3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a89399c77f95450c870e191a9df20f6c.setIcon(icon_98a65d08954d4a288dc584b062923bc3);
+            
+    
+            var popup_959ee854ce2c4ec3af474fc4933599de = L.popup({maxWidth: '300'});
+
+            
+                var html_eac4bc786e614dba9bd32aae6efa66b7 = $('<div id="html_eac4bc786e614dba9bd32aae6efa66b7" style="width: 100.0%; height: 100.0%;">Mumbai ................RT  pbhushan   The Rafale deal is not only the biggest defence scam of all time  the manner in which Modi abused his position to give undue </div>')[0];
+                popup_959ee854ce2c4ec3af474fc4933599de.setContent(html_eac4bc786e614dba9bd32aae6efa66b7);
+            
+
+            marker_a89399c77f95450c870e191a9df20f6c.bindPopup(popup_959ee854ce2c4ec3af474fc4933599de);
+
+            
+        
+    
+
+            var marker_a9fa114b019a4adb8605b00177c56977 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_27c27b0ceb0e4b70979ebe683e316fb1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_a9fa114b019a4adb8605b00177c56977.setIcon(icon_27c27b0ceb0e4b70979ebe683e316fb1);
+            
+    
+            var popup_a7d04bdfd9814c6abc79cb3abe2de59e = L.popup({maxWidth: '300'});
+
+            
+                var html_2642be26fe424a9db726125cf6a361f0 = $('<div id="html_2642be26fe424a9db726125cf6a361f0" style="width: 100.0%; height: 100.0%;">india ................RT  AskAnshul    things Congress won t discuss      Congress was against inscribing   Jai Jawan  Jai Kisan on Shashtri s Samadhi  They allo </div>')[0];
+                popup_a7d04bdfd9814c6abc79cb3abe2de59e.setContent(html_2642be26fe424a9db726125cf6a361f0);
+            
+
+            marker_a9fa114b019a4adb8605b00177c56977.bindPopup(popup_a7d04bdfd9814c6abc79cb3abe2de59e);
+
+            
+        
+    
+
+            var marker_d08f2c07f5ec4f8c99a7ab45c4a086d6 = L.marker(
+                [27.8815412,78.0690216],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_300d5a0106b14033a1877c180fbce511 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d08f2c07f5ec4f8c99a7ab45c4a086d6.setIcon(icon_300d5a0106b14033a1877c180fbce511);
+            
+    
+            var popup_062957471c934afa8212a922be27ba21 = L.popup({maxWidth: '300'});
+
+            
+                var html_d1353d17fdd84144abfdef0a32b3911c = $('<div id="html_d1353d17fdd84144abfdef0a32b3911c" style="width: 100.0%; height: 100.0%;">Aligarh ................RT  JainJain     narendramodi Is it PM Modi s UP     NDTV                                                                                  </div>')[0];
+                popup_062957471c934afa8212a922be27ba21.setContent(html_d1353d17fdd84144abfdef0a32b3911c);
+            
+
+            marker_d08f2c07f5ec4f8c99a7ab45c4a086d6.bindPopup(popup_062957471c934afa8212a922be27ba21);
+
+            
+        
+    
+
+            var marker_8f0a10e3bbd5488bbeb0771f8ff2b678 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_6deec9cd919b41309f775e0dca9bdb45 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8f0a10e3bbd5488bbeb0771f8ff2b678.setIcon(icon_6deec9cd919b41309f775e0dca9bdb45);
+            
+    
+            var popup_7351702cf49b44449a6515a34b15b089 = L.popup({maxWidth: '300'});
+
+            
+                var html_4d4a369999874ba588403bc7a2b3892a = $('<div id="html_4d4a369999874ba588403bc7a2b3892a" style="width: 100.0%; height: 100.0%;">India ................RT  zules      Dear Prime Minister Narendra Modi  you asked citizen s idea for the speech of Independence day from Lal Darwaza on August    </div>')[0];
+                popup_7351702cf49b44449a6515a34b15b089.setContent(html_4d4a369999874ba588403bc7a2b3892a);
+            
+
+            marker_8f0a10e3bbd5488bbeb0771f8ff2b678.bindPopup(popup_7351702cf49b44449a6515a34b15b089);
+
+            
+        
+    
+
+            var marker_244802231ba74c7ea6a78423130b917c = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_aa0a2226a8b444d89099a813c61f8522 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_244802231ba74c7ea6a78423130b917c.setIcon(icon_aa0a2226a8b444d89099a813c61f8522);
+            
+    
+            var popup_0a3f172f6ce647868a5a22e82473536b = L.popup({maxWidth: '300'});
+
+            
+                var html_8a8382aa7141431ba6f092fcfcad853d = $('<div id="html_8a8382aa7141431ba6f092fcfcad853d" style="width: 100.0%; height: 100.0%;">India ................RT  narendramodi in  Students write letter to PM  narendramodi  PMO ensures electricity connection in school https   t co CgkEfu daG   via </div>')[0];
+                popup_0a3f172f6ce647868a5a22e82473536b.setContent(html_8a8382aa7141431ba6f092fcfcad853d);
+            
+
+            marker_244802231ba74c7ea6a78423130b917c.bindPopup(popup_0a3f172f6ce647868a5a22e82473536b);
+
+            
+        
+    
+
+            var marker_c26f36f3568f4d4595710170c0e65266 = L.marker(
+                [19.1334321,72.8882172],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_9249ac261a5e4f3799505d9861997f3a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c26f36f3568f4d4595710170c0e65266.setIcon(icon_9249ac261a5e4f3799505d9861997f3a);
+            
+    
+            var popup_f18cf0b426404991bfa55fe2b237d302 = L.popup({maxWidth: '300'});
+
+            
+                var html_f8c651e11f9d434c867e3893ed1ff118 = $('<div id="html_f8c651e11f9d434c867e3893ed1ff118" style="width: 100.0%; height: 100.0%;">Mumbai ................Building Name     ModispacesAmazon  Location    Borivali West Sub Location   Shimpoli Rd  Haridas Nagar Bedrooms    https   t co  oQ OUAhX </div>')[0];
+                popup_f18cf0b426404991bfa55fe2b237d302.setContent(html_f8c651e11f9d434c867e3893ed1ff118);
+            
+
+            marker_c26f36f3568f4d4595710170c0e65266.bindPopup(popup_f18cf0b426404991bfa55fe2b237d302);
+
+            
+        
+    
+
+            var marker_db63d58f089449cb8fd8b5717ff90f47 = L.marker(
+                [22.8015194,86.2029579],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_681953948106447089f2715a695d44b3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_db63d58f089449cb8fd8b5717ff90f47.setIcon(icon_681953948106447089f2715a695d44b3);
+            
+    
+            var popup_a30a5755b8014ca88b34823ab3fa8ff8 = L.popup({maxWidth: '300'});
+
+            
+                var html_062e885eb6614dd8ac13b933c3c2e2d7 = $('<div id="html_062e885eb6614dd8ac13b933c3c2e2d7" style="width: 100.0%; height: 100.0%;">Jamshedpur ................RT  ramanswall         Koi Mil Gaya   Modi     Vikas    Television gets a triple does of Comedy   Now Modi himself asking for  Vikas  in    </div>')[0];
+                popup_a30a5755b8014ca88b34823ab3fa8ff8.setContent(html_062e885eb6614dd8ac13b933c3c2e2d7);
+            
+
+            marker_db63d58f089449cb8fd8b5717ff90f47.bindPopup(popup_a30a5755b8014ca88b34823ab3fa8ff8);
+
+            
+        
+    
+
+            var marker_6702d894f6c64981a951812a1f69f1f5 = L.marker(
+                [48.5431789,9.9168199],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_e68c37087c374d5bb39ef2dc5e5bb6b5 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6702d894f6c64981a951812a1f69f1f5.setIcon(icon_e68c37087c374d5bb39ef2dc5e5bb6b5);
+            
+    
+            var popup_8edde1b281834a6ab39589239e9926e2 = L.popup({maxWidth: '300'});
+
+            
+                var html_de04696079714733b4d67f759d621d4f = $('<div id="html_de04696079714733b4d67f759d621d4f" style="width: 100.0%; height: 100.0%;">LAUSA ................RT  rssurjewala  In                  Cr of Public Money was lost in Bank frauds   In    months of Modi Govt          Cr of our money has be </div>')[0];
+                popup_8edde1b281834a6ab39589239e9926e2.setContent(html_de04696079714733b4d67f759d621d4f);
+            
+
+            marker_6702d894f6c64981a951812a1f69f1f5.bindPopup(popup_8edde1b281834a6ab39589239e9926e2);
+
+            
+        
+    
+
+            var marker_26de2af11ca5406f9e4d8903ef78a9f8 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_55cff10fec8244ac95d4190ee7def066 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_26de2af11ca5406f9e4d8903ef78a9f8.setIcon(icon_55cff10fec8244ac95d4190ee7def066);
+            
+    
+            var popup_efc3ba55abcd454e9ed9bf9cf6d20743 = L.popup({maxWidth: '300'});
+
+            
+                var html_02854f4ff16a41eb9848ac3ccdae2112 = $('<div id="html_02854f4ff16a41eb9848ac3ccdae2112" style="width: 100.0%; height: 100.0%;">India ................RT  AskAnshul    things Congress won t discuss      Congress was against inscribing   Jai Jawan  Jai Kisan on Shashtri s Samadhi  They allo </div>')[0];
+                popup_efc3ba55abcd454e9ed9bf9cf6d20743.setContent(html_02854f4ff16a41eb9848ac3ccdae2112);
+            
+
+            marker_26de2af11ca5406f9e4d8903ef78a9f8.bindPopup(popup_efc3ba55abcd454e9ed9bf9cf6d20743);
+
+            
+        
+    
+
+            var marker_54decf4470e941e48c37e8cfd6f64fdb = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_ec6b94636dc54ae5b4d10940d991124c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_54decf4470e941e48c37e8cfd6f64fdb.setIcon(icon_ec6b94636dc54ae5b4d10940d991124c);
+            
+    
+            var popup_a1ed2d66f2a242199ae2e8ceb4c343a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_48dd199c849844a6bdbc75cf342fe6df = $('<div id="html_48dd199c849844a6bdbc75cf342fe6df" style="width: 100.0%; height: 100.0%;">India ................ sadhavi Ma am congress has almost overcome this issue  even RG admitted it  Will modi ever do that   i request all  https   t co WY K Bgw D</div>')[0];
+                popup_a1ed2d66f2a242199ae2e8ceb4c343a9.setContent(html_48dd199c849844a6bdbc75cf342fe6df);
+            
+
+            marker_54decf4470e941e48c37e8cfd6f64fdb.bindPopup(popup_a1ed2d66f2a242199ae2e8ceb4c343a9);
+
+            
+        
+    
+
+            var marker_fa83013d13dd469e877a4fc96e8263e8 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_9bc405aa4cca4ee5a76357433404345c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fa83013d13dd469e877a4fc96e8263e8.setIcon(icon_9bc405aa4cca4ee5a76357433404345c);
+            
+    
+            var popup_c7a6b5c23db24b2dac7de2fbfd134bee = L.popup({maxWidth: '300'});
+
+            
+                var html_421925d861584b83b4643eebe618443a = $('<div id="html_421925d861584b83b4643eebe618443a" style="width: 100.0%; height: 100.0%;">India ................RT  narendramodi in  The agriculture mission  How the Modi government is shaping the future of farming and farmers https   t co E YR POjhU </div>')[0];
+                popup_c7a6b5c23db24b2dac7de2fbfd134bee.setContent(html_421925d861584b83b4643eebe618443a);
+            
+
+            marker_fa83013d13dd469e877a4fc96e8263e8.bindPopup(popup_c7a6b5c23db24b2dac7de2fbfd134bee);
+
+            
+        
+    
+
+            var marker_c078e01072324ba9964e0986b4108a26 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_ce987033116d40f080f7083be0374d2e = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c078e01072324ba9964e0986b4108a26.setIcon(icon_ce987033116d40f080f7083be0374d2e);
+            
+    
+            var popup_3fc78868ce394a4b9f7bbedba8bb09c0 = L.popup({maxWidth: '300'});
+
+            
+                var html_1be1d13d76954444a40377c2f92cad09 = $('<div id="html_1be1d13d76954444a40377c2f92cad09" style="width: 100.0%; height: 100.0%;">India ................RT  narendramodi in  PM  narendramodi gets appreciation letter for  Swachh Bharat   https   t co  SoQZBBFtc   via NaMo App https   t co Dee </div>')[0];
+                popup_3fc78868ce394a4b9f7bbedba8bb09c0.setContent(html_1be1d13d76954444a40377c2f92cad09);
+            
+
+            marker_c078e01072324ba9964e0986b4108a26.bindPopup(popup_3fc78868ce394a4b9f7bbedba8bb09c0);
+
+            
+        
+    
+
+            var marker_148952be7c4c48429a9ba3beac28ce62 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_8cbe082e39f8410290187ca1b2be7c38 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_148952be7c4c48429a9ba3beac28ce62.setIcon(icon_8cbe082e39f8410290187ca1b2be7c38);
+            
+    
+            var popup_7e1ae445d32743659d2dcbf84492d04b = L.popup({maxWidth: '300'});
+
+            
+                var html_93aa5d60fe884fa280748a8ea37b043f = $('<div id="html_93aa5d60fe884fa280748a8ea37b043f" style="width: 100.0%; height: 100.0%;">India ................RT  narendramodi in  What CEOs across the world think of PM  narendramodi https   t co ExJnPpaZhZ   via NaMo App https   t co k CksYmmmY</div>')[0];
+                popup_7e1ae445d32743659d2dcbf84492d04b.setContent(html_93aa5d60fe884fa280748a8ea37b043f);
+            
+
+            marker_148952be7c4c48429a9ba3beac28ce62.bindPopup(popup_7e1ae445d32743659d2dcbf84492d04b);
+
+            
+        
+    
+
+            var marker_5e71864a72e0419b8c5b100a51346b76 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_3510ac4d4c3b44af93056f715e7be150 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5e71864a72e0419b8c5b100a51346b76.setIcon(icon_3510ac4d4c3b44af93056f715e7be150);
+            
+    
+            var popup_3f51a1d6dba5414a8e0d06b53dbb1fc8 = L.popup({maxWidth: '300'});
+
+            
+                var html_3aa786976e204c33af23b0439b41906e = $('<div id="html_3aa786976e204c33af23b0439b41906e" style="width: 100.0%; height: 100.0%;">India ................RT  abhijitmajumder  Video of youngster abusing Hindus  PM Modi puts Bengal s  Basirhat back on boil     AninBanerjee  in   MyNation  https </div>')[0];
+                popup_3f51a1d6dba5414a8e0d06b53dbb1fc8.setContent(html_3aa786976e204c33af23b0439b41906e);
+            
+
+            marker_5e71864a72e0419b8c5b100a51346b76.bindPopup(popup_3f51a1d6dba5414a8e0d06b53dbb1fc8);
+
+            
+        
+    
+
+            var marker_6c54d415fc5b496595664da41ebfe5df = L.marker(
+                [20.2665668,85.8437586],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_1a69e68f4220484793df051d44a175e0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6c54d415fc5b496595664da41ebfe5df.setIcon(icon_1a69e68f4220484793df051d44a175e0);
+            
+    
+            var popup_d4be654ae51a41d289f1703847b85969 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7203f42959446a7b5a942288b2b955f = $('<div id="html_b7203f42959446a7b5a942288b2b955f" style="width: 100.0%; height: 100.0%;">Bhubaneswar ................ aman all yours  RahulGandhi Atankiyo ko support Congress karta hai to bomb blast hone par Modi ko kyun kahenge bhai   </div>')[0];
+                popup_d4be654ae51a41d289f1703847b85969.setContent(html_b7203f42959446a7b5a942288b2b955f);
+            
+
+            marker_6c54d415fc5b496595664da41ebfe5df.bindPopup(popup_d4be654ae51a41d289f1703847b85969);
+
+            
+        
+    
+
+            var marker_e5d73e58e3794c199ad28acaef770e4a = L.marker(
+                [24.6319692,46.7150648],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_02c2747cfc7243828af636ae0475548c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e5d73e58e3794c199ad28acaef770e4a.setIcon(icon_02c2747cfc7243828af636ae0475548c);
+            
+    
+            var popup_16a719e524284b31b5ea681e03e00567 = L.popup({maxWidth: '300'});
+
+            
+                var html_d47a3a58c9144d74a9927cce554df0e1 = $('<div id="html_d47a3a58c9144d74a9927cce554df0e1" style="width: 100.0%; height: 100.0%;">Riyadh ................RT  pbhushan   You can watch the entire Press Conference on the  RafaleScam addressed by Arun Shourie  Yashwant Sinha   myself yesterday  h </div>')[0];
+                popup_16a719e524284b31b5ea681e03e00567.setContent(html_d47a3a58c9144d74a9927cce554df0e1);
+            
+
+            marker_e5d73e58e3794c199ad28acaef770e4a.bindPopup(popup_16a719e524284b31b5ea681e03e00567);
+
+            
+        
+    
+
+            var marker_45e91f677617451f8f327b1c14a45fab = L.marker(
+                [12.9791198,77.5912997],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_681cf1c6c8e54403986fa4d8ae5304c7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_45e91f677617451f8f327b1c14a45fab.setIcon(icon_681cf1c6c8e54403986fa4d8ae5304c7);
+            
+    
+            var popup_75435af6416045fca611664a99d74225 = L.popup({maxWidth: '300'});
+
+            
+                var html_407f162c6d3c488cbc037139ca64fee2 = $('<div id="html_407f162c6d3c488cbc037139ca64fee2" style="width: 100.0%; height: 100.0%;">Bengaluru ................RT  digvijaya     https   t co MdBtshBcE </div>')[0];
+                popup_75435af6416045fca611664a99d74225.setContent(html_407f162c6d3c488cbc037139ca64fee2);
+            
+
+            marker_45e91f677617451f8f327b1c14a45fab.bindPopup(popup_75435af6416045fca611664a99d74225);
+
+            
+        
+    
+
+            var marker_70ddfa38bbf44af491d031d27412267f = L.marker(
+                [29.3920381,79.4555358],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_9e470bb3b38f4662bf9ef4d7a52968ec = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_70ddfa38bbf44af491d031d27412267f.setIcon(icon_9e470bb3b38f4662bf9ef4d7a52968ec);
+            
+    
+            var popup_684189ae50a64358ae704cd79030e3da = L.popup({maxWidth: '300'});
+
+            
+                var html_e9489bc0afc046f0a5ef89139613674a = $('<div id="html_e9489bc0afc046f0a5ef89139613674a" style="width: 100.0%; height: 100.0%;">Nainital ................RT  SatyagrahNews                                                               https   t co QOF  qgcSo via  satyagrahnews</div>')[0];
+                popup_684189ae50a64358ae704cd79030e3da.setContent(html_e9489bc0afc046f0a5ef89139613674a);
+            
+
+            marker_70ddfa38bbf44af491d031d27412267f.bindPopup(popup_684189ae50a64358ae704cd79030e3da);
+
+            
+        
+    
+
+            var marker_91da11ff3de345f8930c1fe9c9310ef4 = L.marker(
+                [13.0801721,80.2838331],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_7342061385d6465482d6cdf0d9e220f9 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_91da11ff3de345f8930c1fe9c9310ef4.setIcon(icon_7342061385d6465482d6cdf0d9e220f9);
+            
+    
+            var popup_0b89b5ae508342ae997cd1e8c7e6fa0b = L.popup({maxWidth: '300'});
+
+            
+                var html_b4268d43ccd44b44a9cc570cb62a3cef = $('<div id="html_b4268d43ccd44b44a9cc570cb62a3cef" style="width: 100.0%; height: 100.0%;">Chennai ................RT  Joydas  She is supporter of BJP whose leaders rally with Tiranga in support of Rapist  salute flag draped on body of Lynchers  Sentimen </div>')[0];
+                popup_0b89b5ae508342ae997cd1e8c7e6fa0b.setContent(html_b4268d43ccd44b44a9cc570cb62a3cef);
+            
+
+            marker_91da11ff3de345f8930c1fe9c9310ef4.bindPopup(popup_0b89b5ae508342ae997cd1e8c7e6fa0b);
+
+            
+        
+    
+
+            var marker_5be9aa35e07f4bacb6bc3aa30f16b51b = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_2dbe8eb5b92b4d65ade215c9eb7efe52 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5be9aa35e07f4bacb6bc3aa30f16b51b.setIcon(icon_2dbe8eb5b92b4d65ade215c9eb7efe52);
+            
+    
+            var popup_5f71e9ff8fe54f52a36d91d7e999a1f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_75a2e697e7344c15b7a30c4124b7cb5e = $('<div id="html_75a2e697e7344c15b7a30c4124b7cb5e" style="width: 100.0%; height: 100.0%;">India ................RT  Joydas  She is supporter of BJP whose leaders rally with Tiranga in support of Rapist  salute flag draped on body of Lynchers  Sentimen </div>')[0];
+                popup_5f71e9ff8fe54f52a36d91d7e999a1f3.setContent(html_75a2e697e7344c15b7a30c4124b7cb5e);
+            
+
+            marker_5be9aa35e07f4bacb6bc3aa30f16b51b.bindPopup(popup_5f71e9ff8fe54f52a36d91d7e999a1f3);
+
+            
+        
+    
+
+            var marker_f5a0da6173e144deabca831dfa74ebd1 = L.marker(
+                [22.3511148,78.6677428],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(feature_group_cde786746fe54ef599acc818a443fe6d);
+            
+    
+
+                var icon_4e79c7bd835f4557a8ca65dfa8be9706 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f5a0da6173e144deabca831dfa74ebd1.setIcon(icon_4e79c7bd835f4557a8ca65dfa8be9706);
+            
+    
+            var popup_e282934d0eec456bb2f7c9aa43cf9562 = L.popup({maxWidth: '300'});
+
+            
+                var html_13e946587cb54415b3a4e64fc5ac0094 = $('<div id="html_13e946587cb54415b3a4e64fc5ac0094" style="width: 100.0%; height: 100.0%;">India ................RT  iMac too  It tells a lot about  Mahatama  whose choice of PM candidate was Jinnah   if not Jinnah  Nehru  About time Hindus  that inclu </div>')[0];
+                popup_e282934d0eec456bb2f7c9aa43cf9562.setContent(html_13e946587cb54415b3a4e64fc5ac0094);
+            
+
+            marker_f5a0da6173e144deabca831dfa74ebd1.bindPopup(popup_e282934d0eec456bb2f7c9aa43cf9562);
+
+            
+        
+    
+            var layer_control_faab58991d21461dbfaf1cf69a0b8478 = {
+                base_layers : { "mapboxbright" : tile_layer_310547ff8e9444ae813cf71c91848f23, },
+                overlays : { "Positive" : feature_group_6003ca860b7541c2a46ffe73abf073c5,"Negative" : feature_group_f8c73e291a1248cd92d552e8168fe841,"Neutral" : feature_group_cde786746fe54ef599acc818a443fe6d, }
+                };
+            L.control.layers(
+                layer_control_faab58991d21461dbfaf1cf69a0b8478.base_layers,
+                layer_control_faab58991d21461dbfaf1cf69a0b8478.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_88920c7ec9904b94a26c32c8ba27ff59);
+        
+</script>
